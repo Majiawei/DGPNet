@@ -30,12 +30,7 @@ from .vfnet import VFNet
 from .yolact import YOLACT
 from .yolo import YOLOV3
 
-from .mul_fuse_retinanet import MultiStageFuseRetinaNet
-from .mul_task_retinanet import MultiTaskRetinaNet
-from .refine_mul_task_retinanet import MultiTaskRefineRetinaNet
-from .mul_task_atss import MTATSS
 from .refine_mul_task_atss import MultiTaskRefineATSS
-from .refine_mul_task_atss_com import MultiTaskRefineATSSCOM
 
 __all__ = [
     'ATSS', 'BaseDetector', 'SingleStageDetector',
@@ -45,6 +40,5 @@ __all__ = [
     'FOVEA', 'FSAF', 'NASFCOS', 'PointRend', 'GFL', 'CornerNet', 'PAA',
     'YOLOV3', 'YOLACT', 'VFNet', 'DETR', 'TridentFasterRCNN', 'SparseRCNN',
     'SCNet', 'AutoAssign',
-    'MultiStageFuseRetinaNet','MultiTaskRetinaNet','MultiTaskRefineRetinaNet','MTATSS','MultiTaskRefineATSS',
-    'MultiTaskRefineATSSCOM'
+    'MultiTaskRefineATSS'
 ]
