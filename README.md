@@ -49,6 +49,8 @@ Thanks MMDetection team for the wonderful open source project!
 
 ## Citation
 
+The paper is not yet open.
+
 
 
 
